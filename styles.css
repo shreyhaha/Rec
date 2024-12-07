@@ -1,11 +1,11 @@
 .flex-container {
-     display: flex; 
-  }
-  
-  /* this selector selects all divs inside of .flex-container */
-  .flex-container div {
-    background: peachpuff;
-    border: 4px solid brown;
-    height: 100px;
-    /* flex: 1; */
-  }
+  display: flex; /* Enables flexbox */
+  flex-direction: column; /* Stacks items vertically */
+}
+
+.flex-container div {
+  background: peachpuff; /* Background color */
+  border: 4px solid brown; /* Border color and width */
+  height: 100px; /* Height of each box */
+  flex: 1; /* Makes all divs grow/shrink equally */
+}
